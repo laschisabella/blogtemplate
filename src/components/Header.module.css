@@ -1,0 +1,20 @@
+/* 
+
+CSS MODULES
+importar classe com chave única
+evita que estilização afete outros componentes com mesmo nome
+
+*/
+
+.header{
+	background: var(--gray-800);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	padding: 1.25rem 0;
+}
+
+.header img{
+	height:2rem;
+}
